@@ -1,0 +1,83 @@
+{
+  "Id": "6a4f79b8-435f-47e4-8d80-a5d8009fcd19",
+  "SortOrder": 0,
+  "Type": 2,
+  "Version": 1,
+  "Name": "A4-set",
+  "Run": 2000,
+  "RunFollowing": 1000,
+  "Pages": 4,
+  "FinishedDimension": {
+    "Height": 297,
+    "Width": 210
+  },
+  "HoleMakingIntent": {
+    "Amount": {
+      "CalculatedValue": 4000,
+      "UserValue": -2147483648
+    },
+    "HoleType": 0,
+    "IsRequested": false
+  },
+  "BindingMethod": 1,
+  "Printparts": [
+    {
+      "Id": "1d5f7028-7f2a-49f5-87b0-a5da008db221",
+      "SortOrder": 0,
+      "Type": 4,
+      "Version": 1,
+      "Name": "�verark",
+      "Run": {
+        "CalculatedValue": 2000,
+        "UserValue": -2147483648
+      },
+      "Pages": 2,
+      "FinishedDimension": {
+        "CalculatedValue": {
+          "Height": 297,
+          "Width": 210
+        },
+        "UserValue": {
+          "Height": 0,
+          "Width": 0
+        }
+      },
+      "ColorsPrima": 1,
+      "ColorsVerso": 0,
+      "SelectedPaper": {
+        "ArticleName": "Idem superior cb70 2-p. g",
+        "ArticleNumber": "PG88052111",
+        "ArticleVendor": "Papyrus",
+        "BaseUnit": 1,
+        "GrossFormat": {
+          "Height": 320,
+          "Width": 450
+        },
+        "PaperWeight": 70
+      }
+    }
+  ],
+  "ProductBoxPackagingIntents": [
+    {
+      "Id": "c36f6bb6-b909-49ee-8454-4c840cb2352d",
+      "Version": 1,
+      "Article": {
+        "ArticleBoxPackingType": 1,
+        "BoxContainingQuantity": 0,
+        "BoxContainingWeight": 13,
+        "BoxPackingCapacity": 1
+      },
+      "ArticleName": "Kartong A4",
+      "ArticleNumber": "BOX2",
+      "IsRequested": true,
+      "NumberOfBoxes": {
+        "CalculatedValue": 1,
+        "UserValue": -2147483648
+      },
+      "Run": {
+        "CalculatedValue": 1000,
+        "UserValue": -2147483648
+      }
+    }
+  ]
+}

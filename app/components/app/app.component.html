@@ -1,0 +1,30 @@
+<div class="blended_grid">
+<div class="pageHeader">
+    <h1>Test of Simulink REST API</h1><films-list></films-list><br/>
+</div>
+<div class="pageLeftMenu">
+    <h1>Left</h1>
+    <product-spec></product-spec>
+</div>
+<div class="pageContent">
+    <h1>Center</h1>
+    <section>
+    <section *ngIf="isLoading && !errorMessage">
+    Loading product...
+    </section>
+      <ul *ngIf="!isLoading">          
+          {{product.name}}
+      </ul>
+      <section *ngIf="errorMessage">
+        {{errorMessage}}
+      </section>
+  </section>
+</div>
+<div class="pageRightMenu">
+    <h1>Right</h1>
+    <order-buttons></order-buttons>
+</div>
+<div class="pageFooter">
+    <h1>Footer</h1>
+</div>
+</div>
